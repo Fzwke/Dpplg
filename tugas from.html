@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main {
+        background-color: blue;
+        border: 2px dashed white;
+        border-radius: 20px;
+      }
+
+      .second {
+        margin: 20px;
+      }
+
+      .second h2 {
+        text-align: center;
+        border-bottom: 2px dashed white;
+        color: white;
+      }
+
+      .second label {
+        color: white;
+      }
+
+      .third {
+        display: block;
+        padding: 10px 0 0 45%;
+      }
+
+      .third button {
+        width: 100px;
+        height: 25px;
+      }
+    </style>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <form>
+      <div class="main">
+        <div class="second">
+          <h2>Formulir Anggota Perpustakaan</h2>
+
+          <label>Nama</label><br />
+          <input
+            type="text"
+            name="nama"
+            placeholder="Masukan nama anda"
+            size="20.5rem"
+          />
+
+          <br /><br />
+          <label>Kota Kelahiran</label><br />
+          <input
+            type="text"
+            name="Kota_Lahir"
+            placeholder="Masukan kota lahir anda"
+            size="20.5rem"
+          />
+
+          <br /><br />
+          <label>Tanggal Lahir</label><br />
+          <input type="text"
+            name="Kota_Lahir""
+            placeholder="Masukan lahir anda"
+           type="date"
+            style="width: 20.5rem"
+          />
+
+          <br /><br />
+          <label>Gender</label><br />
+          <input type="radio" name="Kelamin" /><label>Pria</label>
+          <input type="radio" name="Kelamin" /><label>Wanita</label>
+
+          <br /><br />
+          <label>No. Telepon</label><br />
+          <input
+            type="number"
+            name="Kota_Lahir"
+            placeholder="Masukan Nomor Telepon anda"
+            style="width: 20.5rem"
+            max="10"
+          />
+
+          <br /><br />
+          <label>Makanan Favorit</label><br />
+          <input type="checkbox" name="mafa" /><label>Nasi Goreng</label>
+          <input type="checkbox" name="mafa" /><label>Mie Goreng</label>
+
+          <br /><br />
+          <label>Agama</label><br />
+          <select name="Agama" style="width: 20.5rem">
+            <option value="Islam">islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Katholik">Katholik</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Buddha">Buddha</option>
+            <option value="Konghucu">Konghucu</option>
+          </select>
+
+          <br /><br />
+          <label>Alamat</label> <br />
+          <textarea name="Alamat" id="" style="width: 20.5rem"></textarea>
+          <div class="third">
+            <button>Clear</button>
+            <button>Send</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
